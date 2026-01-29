@@ -1,10 +1,12 @@
 import Button from "./components/button";
 import ButtonIcon from "./components/button-icon";
 import ChevronLeftIcon from "./assets/icons/chevron-left.svg?react";
+import Search from "./assets/icons/search.svg?react";
 import ChevronRightIcon from "./assets/icons/chevron-right.svg?react";
 import Badge from "./components/badge";
 import Alert from "./components/alert";
 import Divider from "./components/divider";
+import InputText from "./components/input-text";
 
 export default function App() {
 	return (
@@ -43,6 +45,10 @@ export default function App() {
 					<br />
 					Você pode selecionar arquivos em PNG, JPG, JPEG ou WEBP
 				</Alert>
+			</div>
+
+			<div>
+				<InputText placeholder="Buscar foto" icon={Search} />
 			</div>
 
 			<div>
