@@ -64,7 +64,7 @@ interface InputTextProps extends VariantProps<typeof InputCheckboxVariants>, Omi
 
 export default function InputCheckbox({ variant, size, disabled, className, ...props }: InputTextProps) {
     return (
-        <label className={InputCheckboxWrapperVariants(className)}>
+        <label className={InputCheckboxWrapperVariants({className})}>
             <input type="checkbox" {...props} className={InputCheckboxVariants({ variant, size, disabled })} />
             <Icon svg={CheckIcon} className={InputCheckboxIconVariants({ size })} />
         </label>
