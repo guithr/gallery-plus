@@ -1,3 +1,4 @@
+import SelectCheckboxIllustration from "../../../assets/images/select-checkbox.svg?react";
 import Button from "../../../components/button";
 import {
   Dialog,
@@ -9,10 +10,8 @@ import {
   DialogTrigger,
 } from "../../../components/dialog";
 import InputText from "../../../components/input-text";
-import Text from "../../../components/text";
-import type { Photo } from "../../photos/models/photo";
-import SelectCheckboxIllustration from "../../../assets/images/select-checkbox.svg?react";
 import Skeleton from "../../../components/skeleton";
+import Text from "../../../components/text";
 import PhotoImageSelectable from "../../photos/components/photo-image-selectable";
 import UsePhotos from "../../photos/hooks/use-photos";
 
